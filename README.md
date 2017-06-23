@@ -1,3 +1,3 @@
-###OBS Multiview Tally System
+### OBS Multiview Tally System
 
 Check the wiki for instructions
