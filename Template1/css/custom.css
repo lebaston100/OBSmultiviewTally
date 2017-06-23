@@ -1,0 +1,98 @@
+html {
+	height: 1080px;
+	width: 1920px;
+}
+
+body {
+	height: 1080px;
+	width: 1920px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: grey;
+}
+
+.boxmini {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+#box1 {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 480px;
+	height: 270px;
+}
+
+#box2 {
+	position: fixed;
+	left: 480px;
+	top: 0px;
+	width: 480px;
+	height: 270px;
+}
+
+#box3 {
+	position: fixed;
+	left: 960px;
+	top: 0px;
+	width: 480px;
+	height: 270px;
+}
+
+#box4 {
+	position: fixed;
+	left: 1440px;
+	top: 0px;
+	width: 480px;
+	height: 270px;
+}
+
+#box5 {
+	position: fixed;
+	left: 0px;
+	top: 270px;
+	width: 480px;
+	height: 270px;
+}
+
+#box6 {
+	position: fixed;
+	left: 480px;
+	top: 270px;
+	width: 480px;
+	height: 270px;
+}
+
+#box7 {
+	position: fixed;
+	left: 960px;
+	top: 270px;
+	width: 480px;
+	height: 270px;
+}
+
+#box8 {
+	position: fixed;
+	left: 1440px;
+	top: 270px;
+	width: 480px;
+	height: 270px;
+}
+
+boxPRV {
+	position: fixed;
+	left: 1440px;
+	top: 270px;
+	width: 480px;
+	height: 270px;
+}
+
+
+boxPGM {
+	position: fixed;
+	left: 1440px;
+	top: 270px;
+	width: 480px;
+	height: 270px;
+}
