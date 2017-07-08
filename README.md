@@ -17,6 +17,8 @@
 
 ## Template Setup
 
+- Switch OBS to Studio Mode
+
 - [Download the repository](https://github.com/lebaston100/OBSmultiviewTally/archive/master.zip) or clone it
 
 - Create a new scene in OBS and name it "Multiview" (or whatever you like)
