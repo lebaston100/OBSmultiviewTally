@@ -1,5 +1,8 @@
 ### OBS Multiview Tally System
 
+## What is that??
+You ever wanted the look and feel of a professional video mixer in OBS? With this tool you can replicate the multiview look of video hardware mixers with different sources, preview and programm. Scoll down to see what it looks like.
+
 ## What you need
 
 - The [obs-websocket plugin](https://github.com/Palakis/obs-websocket) (!! Please note that currently you have to use a [build from appveyor](https://ci.appveyor.com/api/buildjobs/wl494vi2xxpymdk0/artifacts/obs-websocket-739bd6f.zip) until the next official stable version comes out !!)
@@ -43,6 +46,10 @@
 
 - Repeat this steps for all of the sources
 
+- Right click the "Multiview" scene name and select "Fullscreen Projector (Scene)"
+ 
+- Choose the display you want to see the multiview on
+
 
 ## Templace Configuration
 
@@ -59,3 +66,8 @@ You have to configure the template to accept your scene names
 ### Template 1 Layout
 
 ![Image](http://cdn.lebaston100.de/git/obsmultiviewtallypreview1.png)
+
+### Other Stuff
+
+- Pull requests with new layouts are welcome
+- Let me know how you use it ;D
