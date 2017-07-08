@@ -1,7 +1,7 @@
 ### OBS Multiview Tally System
 
 ## What is that??
-You ever wanted the look and feel of a professional video mixer in OBS? With this tool you can replicate the multiview look of video hardware mixers with different sources, preview and programm. Scoll down to see what it looks like.
+You ever wanted the look and feel of a professional video mixer in OBS? With this tool you can replicate the multiview look of video hardware mixers with different sources, preview and programm. Scroll down to see what it looks like.
 
 ## What you need
 
