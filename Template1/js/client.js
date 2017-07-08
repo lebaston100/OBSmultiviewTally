@@ -2,8 +2,8 @@ var ip = "127.0.0.1";
 var port = "4444";
 
 var ViewCount = 0;
-var scenes = [ "Anfang", "Intro", "Main 1", "leb voll, bayer klein",
-		"leb klein, bayer voll", "Replay", "AFK", "Ende" ];
+var scenes = [ "src 1", "src 2", "src 3", "src 4",
+		"src 5", "src 6", "src 7", "src 8" ];
 
 window.addEventListener("load", init, false);
 
