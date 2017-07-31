@@ -7,7 +7,7 @@ You ever wanted the look and feel of a professional video mixer in OBS? With thi
 
 - The [obs-websocket plugin](https://github.com/Palakis/obs-websocket) (!! Please note that currently you have to use a [build from appveyor](https://ci.appveyor.com/api/buildjobs/wl494vi2xxpymdk0/artifacts/obs-websocket-739bd6f.zip) until the next official stable version comes out !!)
 
-- Optional: The [obs-ndi plugin](https://github.com/Palakis/obs-ndi/releases) so you don't have to use a screen capture for the main output
+- Optional: The [obs-ndi plugin](https://github.com/Palakis/obs-ndi/releases) so you don't have to use a screen capture for the "Program" display
 
 ## OBS Websocket Setup
 
@@ -26,7 +26,7 @@ You ever wanted the look and feel of a professional video mixer in OBS? With thi
 
 - Create a new scene in OBS and name it "Multiview" (or whatever you like)
 
-- First, add a Browser source, select "local file" and choose the "client.html"
+- First, add a Browser source, select "local file" and choose the "background.html" in the "BG" subfolder
 
 - Set "Width" to 1920, "Height" to 1080, "FPS" to your streaming framerate and replace the the content of the "CSS" box with `body {margin: 0px auto; overflow: hidden;}`
 
@@ -50,18 +50,32 @@ You ever wanted the look and feel of a professional video mixer in OBS? With thi
  
 - Choose the display you want to see the multiview on
 
+If you want to display labels over the scenes then repeat the above steps 4 and 5 except selecting the "labels.html" in the "Labels" subfolder and setting "FPS" to 1
 
-## Templace Configuration
+Make sure that the "background.html" source is on the bottom and the "labels.html" source is on the top of your source stack
+
+
+## Template Configuration
 
 You have to configure the template to accept your scene names
 
-- Open with "client.js" in the js subfolder with a text editor.
+- Open "client.js" in the js subfolder with a text editor
 
 - In the first line you can see a list with the different scene names
 
 - If your first scene is named "Intro", change "src 1" to "Intro" (!!case sensitive!!)
 
 - Repeat this for all the other scenes
+
+You can change the text and text color of the labels
+
+- Open "labels.html" in the "Labels" subfolder with a text editor
+
+- In line 7 you can change the text color
+
+- In line 12-21 you can simply replace the placeholder text
+
+- Don't forget to reload the cache in the source options
 
 ### Template 1 Layout
 
