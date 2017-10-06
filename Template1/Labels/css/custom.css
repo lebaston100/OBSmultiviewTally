@@ -13,11 +13,11 @@ body {
 
 #text {
 	top: 85%;
-	position:relative;
-    display:inline-block;
-    text-align:left;
-    font-size: 28px;
-    font-family: monospace;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	font-size: 28px;
+	font-family: monospace;
 }
 
 #box1 {
@@ -27,7 +27,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #box2 {
@@ -37,7 +37,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #box3 {
@@ -47,7 +47,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #box4 {
@@ -57,7 +57,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #box5 {
@@ -67,7 +67,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #box6 {
@@ -77,7 +77,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #box7 {
@@ -87,7 +87,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #box8 {
@@ -97,7 +97,7 @@ body {
 	width: 480px;
 	height: 270px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
 
 #boxPRV {
@@ -107,9 +107,8 @@ body {
 	width: 960px;
 	height: 540px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
-
 
 #boxPGM {
 	position: fixed;
@@ -118,5 +117,5 @@ body {
 	width: 960px;
 	height: 540px;
 	text-align: center;
-    display:table-cell;
+	display: table-cell;
 }
