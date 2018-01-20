@@ -97,6 +97,15 @@ function event(text) {
 
 function init() {
 	doConnect();
+	setTimeout(checkIfConnected, 6000);
+}
+
+function checkIfConnected() {
+	if (socketisOpen) {
+		document.getElementById("overlay").innerHTML = "";
+	} else {
+		document.getElementById("overlay").innerHTML = "Connection is failing. Open this html file in the <br>browser and check your developer console for log messages.";
+	}
 }
 
 function sendCommand(p) {
@@ -127,7 +136,7 @@ function doConnect() {
 function onClose(evt) {
 	socketisOpen = 0;
 	if (!intervalID) {
-		intervalID = setInterval(doConnect, 5000);
+		intervalID = setInterval(doConnect, 6000);
 	}
 }
 
