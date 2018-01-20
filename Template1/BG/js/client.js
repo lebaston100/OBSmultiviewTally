@@ -136,7 +136,7 @@ function doConnect() {
 function onClose(evt) {
 	socketisOpen = 0;
 	if (!intervalID) {
-		intervalID = setInterval(doConnect, 6000);
+		intervalID = setInterval(doConnect, 5000);
 	}
 }
 
