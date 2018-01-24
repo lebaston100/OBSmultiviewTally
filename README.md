@@ -1,11 +1,14 @@
 ### OBS Multiview Tally System
 
+#Important
+**OBS Studio now includes a nativ Multiview. I won't stop your from using this but i will no longer update it.**
+
 ## What is that??
 You ever wanted the look and feel of a professional video mixer in OBS? With this tool you can replicate the multiview look of video hardware mixers with different sources, preview and programm. Scroll down to see what it looks like.
 
 ## What you need
 
-- The [obs-websocket plugin](https://github.com/Palakis/obs-websocket/releases) (Version >= 4.2.0)
+- The [obs-websocket plugin](https://github.com/Palakis/obs-websocket) (!! Please note that currently you have to use a [build from appveyor](https://ci.appveyor.com/api/buildjobs/wl494vi2xxpymdk0/artifacts/obs-websocket-739bd6f.zip) until the next official stable version comes out !!)
 
 - Optional: The [obs-ndi plugin](https://github.com/Palakis/obs-ndi/releases) so you don't have to use a screen capture for the "Program" display
 
